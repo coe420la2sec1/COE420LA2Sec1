@@ -16,6 +16,12 @@ public static void addFeatureA()
     System.out.println("Feature Added");
     
 }
+public static void addFeatureB()
+{
+    System.out.println("Feature B Added");
+    
+}
+
     /**
      * @param args the command line arguments
      */
@@ -23,6 +29,7 @@ public static void addFeatureA()
     {
         // TODO code application logic here
         addFeatureA();
+        addFeatureB();
         
     }
     
